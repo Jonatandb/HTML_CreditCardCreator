@@ -1,0 +1,11 @@
+
+:root {
+  --clr-gold: #DCC48E;
+  --clr-beige: #EAEFD3;
+  --clr-purple: #27233A;
+}
+
+body {
+  background-color: var(--clr-purple);
+  color: var(--clr-beige);
+}
