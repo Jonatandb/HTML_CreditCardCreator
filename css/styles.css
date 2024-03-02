@@ -18,3 +18,10 @@
 body {
   background-color: var(--clr-white);
 }
+
+.wrapper {
+  background-image: url('../img/bg-main-mobile.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
