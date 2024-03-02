@@ -163,3 +163,44 @@ body {
   cursor: pointer;
   border: none;
 }
+
+@media screen and (min-width: 750px) {
+
+  .wrapper {
+    background-image: url("../img/bg-main-desktop.png");
+    background-position: left;
+    background-size: auto 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+  }
+
+  .card {
+    padding-inline: 6rem;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .card-front {
+    order: 1;
+    margin-top: 0;
+    width: 18rem;
+    max-width: unset;
+  }
+
+  .card-back {
+    order: 2;
+    width: 18rem;
+    max-width: unset;
+  }
+
+  .form-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .form {
+    width: 25rem;
+  }
+}
